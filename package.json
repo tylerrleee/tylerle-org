@@ -2,7 +2,7 @@
   "name": "august-portfolio",
   "private": false,
   "version": "0.0.0",
-  "homepage": "https://tylerrleee.github.io/august-portfolio",
+  "homepage": "https://tylerle-org-vwx4-q5dygsiz0-tylerrleees-projects.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
