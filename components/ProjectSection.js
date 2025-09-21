@@ -5,7 +5,7 @@ export default function ProjectSection() {
     {
       date: "Sept 2025",
       title: "HackMIT AR Surgical Guidance Platform",
-      description: " a real-time augmented reality (AR) system developed as a HackMIT project to enable remote surgical experts to assist on-site medics via live vision, voice, and spatial tracking. The system uses XREAL glasses (or similar AR headset), a Raspberry Pi to stream video, a local socket streaming camera feed (Auduicam or equivalent), microphone input, and remote UI & data server components. ",
+      description: " a real-time augmented reality (AR) system developed as a HackMIT project to enable remote surgical experts to assist on-site medics via live vision, voice, and spatial tracking. The system uses XREAL glasses, a Raspberry Pi, an Auduicam, microphone input, and remote UI & data server components. ",
       image: "/images/hackmit-project.jpg",
       imageAlt: "glasses-demo",
       link: "https://github.com/tylerrleee/AR-Surgical-Guidance-Platform",
@@ -45,7 +45,7 @@ export default function ProjectSection() {
     {
       date: "May 2025",
       title: "NYC Residential Property Sales Analysis",
-      description: "This analysis investigates New York City property sales from May 2024 to April 2025 by cleaning, merging, and geocoding official city sales data. Using exploratory visualizations like waffle charts, heatmaps, and spatial density maps, the paper illustrates key trends in property transactions and prices across the five boroughs. The findings reveal distinct patterns in the types of residential buildings sold per borough and highlight significant variations in sale prices and transaction density, especially in Manhattan.",
+      description: "The findings reveal distinct patterns in the types of residential buildings sold per borough and highlight significant variations in sale prices and transaction density, especially in Manhattan.",
       image: "/images/nycdata.png",
       imageAlt: "nyc-data",
       link: "https://github.com/tylerrleee/NYC-Residential-Property-Sales-Analysis/blob/LAB5/NYCPropertySales.pdf",

@@ -15,7 +15,7 @@ export default function Header() {
           <SmoothScrollLink href="#"> About</SmoothScrollLink>
           <SmoothScrollLink href="#experience"> Experience</SmoothScrollLink>
           <SmoothScrollLink href="#project"> Projects</SmoothScrollLink>
-          <SmoothScrollLink href="#"> Involvement</SmoothScrollLink>
+          <SmoothScrollLink href=""> Involvement</SmoothScrollLink>
         </nav>
         <div className="button-container">
           <a href="https://github.com/tylerrleee" target="_blank" rel="noopener noreferrer" className="btn-github">
