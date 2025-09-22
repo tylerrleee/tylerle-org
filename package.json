@@ -1,15 +1,13 @@
 {
   "name": "august-portfolio",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
-  "homepage": "https://tylerle-org-vwx4.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:preview": "echo \"Let's build a preview!\" && next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "d3": "^7.9.0",
@@ -25,7 +23,6 @@
     "eslint": "^9.25.0",
     "eslint-config-next": "^15.5.3",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "typescript": "5.9.2"
