@@ -2,10 +2,9 @@ export default function HeroSection() {
   return (
     <div className="first-content">
       <h1> 
-        first-generation student <br /> 
-        passionate about <br /> 
-        building <em>community</em> <br /> 
-        & <em>software</em> 
+        Tyler Le <br /> 
+        <em> Portfolio </em>
+
       </h1>
 
       <div className="description-container">
