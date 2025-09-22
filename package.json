@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:preview": "echo \"Let's build a preview!\" && next build",
+    "build:production": "next build",
     "start": "next start",
     "lint": "next lint"
   },

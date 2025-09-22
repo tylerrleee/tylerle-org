@@ -2,16 +2,8 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "/august-portfolio",
+  "basePath": "",
   "redirects": [
-    {
-      "source": "/august-portfolio",
-      "destination": "/august-portfolio/",
-      "basePath": false,
-      "internal": true,
-      "statusCode": 308,
-      "regex": "^/august-portfolio$"
-    },
     {
       "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
       "destination": "/:file",
