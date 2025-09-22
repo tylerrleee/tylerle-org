@@ -12,7 +12,6 @@ export default function Layout({ children, title = 'Tyler Le' }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link rel="icon" href='/tle.png' sizes="any" />
         <link rel="apple-touch-icon" href='/tle.png' />
-        <link rel="stylesheet" href="/global.css/" />
         <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
         <title>{title}</title>
       </Head>
