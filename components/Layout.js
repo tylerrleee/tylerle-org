@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from './Header'
 import favicon from '/public/tle.png'
+import { Analytics } from '@vercel/analytics/next';
 
 export default function Layout({ children, title = 'Tyler Le' }) {
   return (
@@ -19,6 +20,8 @@ export default function Layout({ children, title = 'Tyler Le' }) {
         <Header />
         <main>
           {children}
+          <Analytics />
+
         </main>
       </div>
     </>
